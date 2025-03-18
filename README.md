@@ -8,16 +8,6 @@ The laboratory sessions cover a range of topics from basic linear programming to
 
 ### Lab 1: Introduction to Python and PuLP
 
-# Automation and Robotics - Laboratory Materials
-
-This repository contains laboratory materials and exercises for the Automation and Robotics course, focusing on optimization techniques, programming, and machine learning applications in industrial contexts.
-
-## Course Overview
-
-The laboratory sessions cover a range of topics from basic linear programming to advanced optimization techniques and machine learning applications in automation:
-
-### Lab 1: Introduction to Python and PuLP
-
 <a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_1.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
@@ -36,9 +26,19 @@ The laboratory sessions cover a range of topics from basic linear programming to
 - Learning different constraint types
 - Sensitivity analysis
 
-### Lab 3: Dynamic Programming - Implementation in Python
+### Lab 3: Integer Programming
 
 <a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_3.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+- Understanding integer programming concepts
+- Modeling logical constraints
+- Solving scheduling problems
+
+### Lab 4: Dynamic Programming - Implementation in Python
+
+<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_4.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -46,29 +46,9 @@ The laboratory sessions cover a range of topics from basic linear programming to
 - Implementing simple DP tasks
 - Result interpretation in production context
 
-### Lab 4: Introduction to Non-linear Optimization
-
-<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_4.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-- Understanding differences between linear and non-linear optimization
-- Getting familiar with scipy.optimize
-- Solving example non-linear problems
-
-### Lab 5: Scheduling with PuLP (Job Shop/Flow Shop Example)
+### Lab 5: Network Methods - CPM/PERT in Python
 
 <a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_5.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-- Modeling scheduling problems as integer programming
-- Implementing simple flow shop or job shop cases
-- Understanding computational complexity
-
-### Lab 6: Network Methods - CPM/PERT in Python
-
-<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_6.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -76,32 +56,11 @@ The laboratory sessions cover a range of topics from basic linear programming to
 - Implementing algorithms for time calculations
 - Getting familiar with PERT method
 
-### Lab 7: Machine Learning Basics in Python - Regression and Classification
-
-<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_7.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-- Learning scikit-learn basics
-- Data loading, splitting, and model training
-- Result interpretation and model quality assessment
-
-### Lab 8: Methods Integration - Forecasting + Optimization in PuLP
-
-<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_8.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-- Showing how ML can provide input data for optimization models
-- Implementing forecasting and optimization pipeline
-- Discussing practical aspects of ML and optimization integration
-
 ## Repository Structure
 
 - **Jupyter Notebooks**: Each lab is provided as a Jupyter notebook (`lab_auto_X.ipynb`)
 - **Data**: Sample datasets for exercises in the `data/` directory
-- **Images**: Visual resources used in the notebooks in the `images/` directory
-- **Additional Resources**: Supplementary materials including research papers and reference documents
+- **Images**: Visual resources used in the notebooks
 
 ## Prerequisites
 
@@ -129,16 +88,6 @@ pip install pulp numpy pandas matplotlib scikit-learn scipy jupyter
 3. Launch Jupyter Notebook or JupyterLab
 4. Open the notebook for the current lab session
 
-## Additional Resources
-
-The repository includes supplementary materials:
-- Blending problem examples (blending.md, blending.rst)
-- Linear programming formulation examples
-- Research papers on optimization techniques
-
 ## License
 
-This educational material is provided for academic purposes. Please respect the intellectual property rights of all referenced works. 
-- Getting familiar with Python environment
-- Installing and configuring PuLP library
-- Solving first simple linear programming problem
+This educational material is provided for academic purposes. Please respect the intellectual property rights of all referenced works.

@@ -1,0 +1,42 @@
+graph LR
+    subgraph Decisions
+        x1["Build Factory A (Value: $9M, Cost: $6M)"]
+        x2["Build Factory B (Value: $5M, Cost: $3M)"]
+        x3["Build Warehouse A (Value: $6M, Cost: $5M)"]
+        x4["Build Warehouse B (Value: $4M, Cost: $2M)"]
+    end
+
+    subgraph Constraints
+        C1["Capital Constraint: Total Cost <= $10M"]
+        C2["Warehouse A Dependency: x3 depends on x1"]
+        C3["Warehouse B Dependency: x4 depends on x2"]
+    end
+
+    subgraph Objective
+        Maximize["Maximize: Total Added Value"]
+        Value["Total Value: 9*x1 + 5*x2 + 6*x3 + 4*x4"]
+    end
+
+    x1 --> C1
+    x2 --> C1
+    x3 --> C1
+    x4 --> C1
+
+    x3 --> C2
+    x4 --> C3
+
+    C1 --> Maximize
+    C2 --> Maximize
+    C3 --> Maximize
+
+    Maximize --> Value
+
+    style x1 fill:#f9f,stroke:#333,stroke-width:2px
+    style x2 fill:#f9f,stroke:#333,stroke-width:2px
+    style x3 fill:#f9f,stroke:#333,stroke-width:2px
+    style x4 fill:#f9f,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:2px
+    style C2 fill:#ccf,stroke:#333,stroke-width:2px
+    style C3 fill:#ccf,stroke:#333,stroke-width:2px
+    style Maximize fill:#cfc,stroke:#333,stroke-width:2px
+    style Value fill:#cfc,stroke:#333,stroke-width:2px
