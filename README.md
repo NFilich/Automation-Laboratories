@@ -56,6 +56,16 @@ The laboratory sessions cover a range of topics from basic linear programming to
 - Implementing algorithms for time calculations
 - Getting familiar with PERT method
 
+### Lab 6: [Placeholder Title]
+
+<a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_6.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+- Learning timeseries forecasting
+- Learning categorization
+- Using Machine Learning and Operations reasearch together
+
 ## Repository Structure
 
 - **Jupyter Notebooks**: Each lab is provided as a Jupyter notebook (`lab_auto_X.ipynb`)
