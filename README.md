@@ -56,7 +56,7 @@ The laboratory sessions cover a range of topics from basic linear programming to
 - Implementing algorithms for time calculations
 - Getting familiar with PERT method
 
-### Lab 6: [Placeholder Title]
+### Lab 6: Machine learning and statistics in optimization of automation tasks
 
 <a target="_blank" href="https://colab.research.google.com/github/AdoHaha/automation_robotics_lab/blob/master/lab_auto_6.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
